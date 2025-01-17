@@ -85,46 +85,55 @@ namespace FinancialCrm
 
         }
 
-        private void btnBanks_Click(object sender, EventArgs e)
-        {
-            FrmBanks frm = new FrmBanks();
-            frm.Show();
-            this.Close();
-        }
-
         private void btnCategories_Click(object sender, EventArgs e)
         {
             FrmCategories frm = new FrmCategories();
             frm.Show();
-            this.Close();
+            this.Hide();
         }
-
+        private void btnBanks_Click(object sender, EventArgs e)
+        {
+            FrmBanks frm = new FrmBanks();
+            frm.Show();
+            this.Hide();
+        }
         private void btnSpendings_Click(object sender, EventArgs e)
         {
             FrmSpendings frm = new FrmSpendings();
             frm.Show();
-            this.Close();
+            this.Hide();
         }
-
         private void btnTransactions_Click(object sender, EventArgs e)
         {
             FrmTransactions frm = new FrmTransactions();
             frm.Show();
-            this.Close();
+            this.Hide();
+        }
+
+        private void btnBillings_Click_1(object sender, EventArgs e)
+        {
+            FrmBilling frm = new FrmBilling();
+            frm.Show();
+            this.Hide();
         }
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
             FrmDashboardd frm = new FrmDashboardd();
             frm.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
         {
             FrmSettings frm = new FrmSettings();
             frm.Show();
-            this.Close();
+            this.Hide();
+        }
+
+        private void btnLogout_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
