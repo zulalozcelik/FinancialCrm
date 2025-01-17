@@ -6,11 +6,11 @@ This project is a bank application that I developed based on the database. The d
 ----------------------------------------------------------------------------------------------------------------------------------------
 Technologies and Applications Used:
 ----------------------------------------------------------------------------------------------------------------------------------------
-*C#
-*Windows Forms
-*Microsoft SQL Server
-*LINQ
-*Entity Framework
+•C#
+•Windows Forms
+•Microsoft SQL Server
+•LINQ
+•Entity Framework
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 #THE DATABASE DIAGRAM I USED IN THIS PROJECT#
